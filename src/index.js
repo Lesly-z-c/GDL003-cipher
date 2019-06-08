@@ -20,8 +20,14 @@ function comenzar (){
     document.getElementById("mensajeCesar").innerHTML = "Tu texto en codigo es :" + mensajeCesar;
     return mensajeCesar;
 }
+function imprimir() {
+  codif.style.display = "none"
+  decodif.style.display = "block"
+
+}
 // Funciones con parametros function(string, offset)
 document.getElementById("boton1").addEventListener("click", comenzar);
+document.getElementById("boton1").addEventListener("click", imprimir); //si pongo esta linea no me imprime el mensaje codificado y me salta a decodificar, pero si la quito si lo decodifica, pero no me manda a decodificar
 //addEventListener('click', function() {
 //aqui empieza el desifrado
 const nuevoTexto = document.getElementById("mismomensaje");
