@@ -1,11 +1,66 @@
-.portada{
-        background-image:url("https://i.pinimg.com/originals/27/b4/c4/27b4c4f15101bd7cfa5517387c9a39dc.jpg");
-        background-repeat: no-repeat;
-  height: 50%;
-  width: 50%
-  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-  text-align: center;
-      }
+body {
+  background:url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1804/Holiday-lights-hand-darkness_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+
+}
+form  {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: :10px 20px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+
+}
+
+input,textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+    border: none;
+width: 95px; //flaco
+line-height: 15px; //alto
+margin: 0 4px -6px -4px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 7px;
+}
+
+textarea {
+  min-height: 70px;
+  max-height: 300px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+border-radius: 7px;
+}
+
+#boton1 {
+  background: #FFC5A1;
+  color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#boton2 {
+  background: #FFC5A1;
+  color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+p {
+  color: #fff;
+}
