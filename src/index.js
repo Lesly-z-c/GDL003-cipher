@@ -24,14 +24,8 @@ let decode = ()=> {
    let mensajeSinCesar = window.cipher.decode(mismoDesplazamiento, nuevoTexto);
    document.getElementById("mensajeSinCesar").innerHTML = "Tu texto original es :" + mensajeSinCesar;
 };
-
+let refrescar = () =>{
+window.location.href = window.location.href;
+};
 document.getElementById("boton2").addEventListener("click", decode);
-
-  /*let inicio2 = document.getElementById("finainicio");
-    inicio2.addEventListener("click", () =>{
-    mensaje.value = "";
-    desplazamiento.value = "";
-    mensajeCesar.innerHTML = "";
-});
-*/
-/// para que no codifique signos es ||32||64
+document.getElementById("finainicio").addEventListener("click", refrescar);
