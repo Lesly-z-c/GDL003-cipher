@@ -1,5 +1,3 @@
-
-
 let texto = document.getElementById("mensaje");
 const desplazamiento =document.getElementById("saltos");
 let imprimir = () => {
@@ -15,17 +13,25 @@ let imprimir = () => {
     document.getElementById("mensajeCesar").innerHTML = "Tu texto en codigo es :" + mensajeCesar;
 
  };
-// Funciones con parametros function(string, offset)
 document.getElementById("boton1").addEventListener("click", encode);
 document.getElementById("decodadecof").addEventListener("click", imprimir); //si pongo esta linea no me imprime el mensaje codificado y me salta a decodificar, pero si la quito si lo decodifica, pero no me manda a decodificar
 
 const desplazamiento2 = document.getElementById("mismoSalto");
- let decode = ()=> {
+let decode = ()=> {
    let nuevoTexto = document.getElementById("mismomensaje").value;
    let mismoDesplazamiento = parseInt(desplazamiento2.value);
    console.log(mismoDesplazamiento, nuevoTexto);
    let mensajeSinCesar = window.cipher.decode(mismoDesplazamiento, nuevoTexto);
-  document.getElementById("mensajeSinCesar").innerHTML = "Tu texto original es :" + mensajeSinCesar;
+   document.getElementById("mensajeSinCesar").innerHTML = "Tu texto original es :" + mensajeSinCesar;
 };
 
 document.getElementById("boton2").addEventListener("click", decode);
+
+  /*let inicio2 = document.getElementById("finainicio");
+    inicio2.addEventListener("click", () =>{
+    mensaje.value = "";
+    desplazamiento.value = "";
+    mensajeCesar.innerHTML = "";
+});
+*/
+/// para que no codifique signos es ||32||64
