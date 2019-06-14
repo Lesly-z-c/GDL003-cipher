@@ -17,8 +17,8 @@ window.cipher = {
        mensajeCesar += String.fromCharCode(transformacion);
 
   }
-  if  (mensajeEnAscii >=32 && mensajeEnAscii <=64 || mensajeEnAscii>=123 && mensajeEnAscii<=126) {
-    let transformacion = mensajeCesar;
+  if  (mensajeEnAscii >=32 && mensajeEnAscii <=64 ||mensajeEnAscii>= 91 && mensajeEnAscii <= 96 ||mensajeEnAscii>=123 && mensajeEnAscii<=126) {
+
     mensajeCesar += String.fromCharCode(mensajeEnAscii);
       }
       console.log(mensajeCesar);
@@ -41,7 +41,7 @@ window.cipher = {
      mensajeSinCesar += String.fromCharCode(transformacion2);
 }
 if  (mensajeEnAscii1 >=32 && mensajeEnAscii1 <=64 || mensajeEnAscii1>=123 && mensajeEnAscii1<=126) {
-  let transformacion2 = mensajeSinCesar;
+
   mensajeSinCesar += String.fromCharCode(mensajeEnAscii1);
     }
     console.log(mensajeSinCesar);
@@ -49,7 +49,7 @@ if  (mensajeEnAscii1 >=32 && mensajeEnAscii1 <=64 || mensajeEnAscii1>=123 && men
   }
       return mensajeSinCesar;
 }
-}
+};
 /* if (mensajeEnAscii >=32 && mensajeEnAscii <=64 || mensajeEnAscii>=123 ) {
   let transformacion2 = mensajeSinCesar;
 */

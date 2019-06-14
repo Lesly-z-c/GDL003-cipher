@@ -24,8 +24,7 @@ let decode = ()=> {
    let mensajeSinCesar = window.cipher.decode(mismoDesplazamiento, nuevoTexto);
    document.getElementById("mensajeSinCesar").innerHTML = "Tu texto original es :" + mensajeSinCesar;
 };
-let refrescar = () =>{
-window.location.href = window.location.href;
-};
+
+
+
 document.getElementById("boton2").addEventListener("click", decode);
-document.getElementById("finainicio").addEventListener("click", refrescar);

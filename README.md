@@ -76,14 +76,13 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ### Definición del producto
+**Cipher**
+Es una web app utilizada para codificar y decodificar textos mediante cifrado Cesar.
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+El mundo no siempre necesita enterarse de lo que pensamos o hacemos, ni necesitamos contarlo a alguien màs para que la idea deje de rondar nuestros pensamientos,esta diseñado para mujeres que necesitan liberar su mente ya sea de historias, sucesos, pensamientos y que no quieren que las demàs personas las lean, no se necesita tener una edad en especifico, de esta necesidad surge Cipher que no es màs que un diario con sistema de encriptaciòn bajo un còdigo nùmerico o desplazamiento sobre còdigo ascii que el usuario elige para cifrar su texto.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
+El modelo de cipher esta diseñado justo para no cansar la vista con un fondo obscuro y con luces en la palma de la mano porque abre la oportunidad de traer todas esas ideas dispersas y tenerlas seguras en tus manos sin miedo a que mas personas se enteren de tu privacidad.
+ tiene un campo de texto donde explayar tus ideas, seguido de este se encuentra un campo donde se ingresa el codigo sobre el cual el usuario decide encriptar su texto, basandos sobre el desplazamiendo de cifrado cesar. Ademàs de cumplir con esta funcìon de codificar Cipher ofrece la opcìon de desifrar tus textos presionando "volver al originar" tus mediante la misma operacion, es decir, se ingresa el texto codificado y el mismo codigo de desplazamiento sobre el cùal se cifro anteriormente el mensaje, el sitio devolvera el texto original sin cifrado Cesar.
 ### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
@@ -184,7 +183,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 ## Rúbrica
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. 
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
 
 ## Pistas sobre cómo comenzar a trabajar en el proyecto
 
